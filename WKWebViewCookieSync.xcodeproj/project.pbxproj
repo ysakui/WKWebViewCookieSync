@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2489F31F5EF49C0051EC2D /* WKCookieStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2489F21F5EF49C0051EC2D /* WKCookieStorage.swift */; };
+		0EE0487A1F5C4ED20021E240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE048791F5C4ED20021E240 /* AppDelegate.swift */; };
+		0EE0487C1F5C4ED20021E240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0487B1F5C4ED20021E240 /* ViewController.swift */; };
+		0EE0487F1F5C4ED20021E240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0487D1F5C4ED20021E240 /* Main.storyboard */; };
+		0EE048811F5C4ED20021E240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE048801F5C4ED20021E240 /* Assets.xcassets */; };
+		0EE048841F5C4ED20021E240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE048821F5C4ED20021E240 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E2489F21F5EF49C0051EC2D /* WKCookieStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKCookieStorage.swift; sourceTree = "<group>"; };
+		0EE048761F5C4ED20021E240 /* WKWebViewCookieSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewCookieSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE048791F5C4ED20021E240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE0487B1F5C4ED20021E240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EE0487E1F5C4ED20021E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EE048801F5C4ED20021E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE048831F5C4ED20021E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE048851F5C4ED20021E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE048731F5C4ED20021E240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE0486D1F5C4ED20021E240 = {
+			isa = PBXGroup;
+			children = (
+				0EE048781F5C4ED20021E240 /* WKWebViewCookieSync */,
+				0EE048771F5C4ED20021E240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE048771F5C4ED20021E240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE048761F5C4ED20021E240 /* WKWebViewCookieSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE048781F5C4ED20021E240 /* WKWebViewCookieSync */ = {
+			isa = PBXGroup;
+			children = (
+				0EE048791F5C4ED20021E240 /* AppDelegate.swift */,
+				0EE0487B1F5C4ED20021E240 /* ViewController.swift */,
+				0EE0487D1F5C4ED20021E240 /* Main.storyboard */,
+				0EE048801F5C4ED20021E240 /* Assets.xcassets */,
+				0EE048821F5C4ED20021E240 /* LaunchScreen.storyboard */,
+				0EE048851F5C4ED20021E240 /* Info.plist */,
+				0E2489F21F5EF49C0051EC2D /* WKCookieStorage.swift */,
+			);
+			path = WKWebViewCookieSync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE048751F5C4ED20021E240 /* WKWebViewCookieSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE048881F5C4ED20021E240 /* Build configuration list for PBXNativeTarget "WKWebViewCookieSync" */;
+			buildPhases = (
+				0EE048721F5C4ED20021E240 /* Sources */,
+				0EE048731F5C4ED20021E240 /* Frameworks */,
+				0EE048741F5C4ED20021E240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebViewCookieSync;
+			productName = WKWebViewCookieSync;
+			productReference = 0EE048761F5C4ED20021E240 /* WKWebViewCookieSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE0486E1F5C4ED20021E240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ysakui;
+				TargetAttributes = {
+					0EE048751F5C4ED20021E240 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0EE048711F5C4ED20021E240 /* Build configuration list for PBXProject "WKWebViewCookieSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EE0486D1F5C4ED20021E240;
+			productRefGroup = 0EE048771F5C4ED20021E240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE048751F5C4ED20021E240 /* WKWebViewCookieSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE048741F5C4ED20021E240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE048841F5C4ED20021E240 /* LaunchScreen.storyboard in Resources */,
+				0EE048811F5C4ED20021E240 /* Assets.xcassets in Resources */,
+				0EE0487F1F5C4ED20021E240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE048721F5C4ED20021E240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE0487C1F5C4ED20021E240 /* ViewController.swift in Sources */,
+				0E2489F31F5EF49C0051EC2D /* WKCookieStorage.swift in Sources */,
+				0EE0487A1F5C4ED20021E240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EE0487D1F5C4ED20021E240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE0487E1F5C4ED20021E240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE048821F5C4ED20021E240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE048831F5C4ED20021E240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EE048861F5C4ED20021E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EE048871F5C4ED20021E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EE048891F5C4ED20021E240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKWebViewCookieSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysakui.WKWebViewCookieSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0EE0488A1F5C4ED20021E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKWebViewCookieSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysakui.WKWebViewCookieSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE048711F5C4ED20021E240 /* Build configuration list for PBXProject "WKWebViewCookieSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE048861F5C4ED20021E240 /* Debug */,
+				0EE048871F5C4ED20021E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE048881F5C4ED20021E240 /* Build configuration list for PBXNativeTarget "WKWebViewCookieSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE048891F5C4ED20021E240 /* Debug */,
+				0EE0488A1F5C4ED20021E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EE0486E1F5C4ED20021E240 /* Project object */;
+}
