@@ -10,9 +10,9 @@ import UIKit
 import WebKit
 
 final class WKCookieStorage: NSObject {
-    static let shared = WKCookieStorage()
+    @objc static let shared = WKCookieStorage()
     
-    fileprivate(set) var sharedProcessPool: WKProcessPool = WKProcessPool()
+    @objc fileprivate(set) var sharedProcessPool: WKProcessPool = WKProcessPool()
     fileprivate var webView: WKWebView?
     
     private let htmlTemplate = "<DOCTYPE html><html><body></body></html>"
@@ -23,7 +23,7 @@ final class WKCookieStorage: NSObject {
     fileprivate var getCookiesCompletion: ((_ cookiesString: String?) -> Void)?
     fileprivate var setCookieCompletion: (() -> Void)?
     
-    func getCookiesString(completion: @escaping (_ cookiesString: String?) -> Void) {
+    @objc func getCookiesString(completion: @escaping (_ cookiesString: String?) -> Void) {
         self.getCookiesCompletion = completion
         
         let javaScriptString = "webkit.messageHandlers.\(self.getCookiesStringHandler).postMessage(document.cookie)"
@@ -31,7 +31,7 @@ final class WKCookieStorage: NSObject {
         loadHTMLString(javaScriptString: javaScriptString, messageHandler: self.getCookiesStringHandler)
     }
     
-    func setCookie(name: String, value: String, completion: @escaping () -> Void) {
+    @objc func setCookie(name: String, value: String, completion: @escaping () -> Void) {
         self.setCookieCompletion = completion
         
         let javaScriptString = "webkit.messageHandlers.\(self.setCookieHandler).postMessage(document.cookie='\(name)=\(value)')"
